@@ -11,7 +11,6 @@ def add_grade(name, grade):
 
 
 def calculate_average(name):
-
     grades = students[name]
     sum_grade = 0
     for grade in grades:

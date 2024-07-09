@@ -16,7 +16,6 @@ def main():
         print("10. Exit")
 
         choice = input("Waiting for an input: ")
-
         if choice == 1:
             name = input("Enter Student Name: ")
             students.add_student(name)
