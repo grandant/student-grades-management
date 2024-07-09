@@ -2,7 +2,9 @@ students = {}
 
 
 def add_student(name):
-    pass
+    if choice == "1":
+        name = input("Enter student name: ")
+        
 
 
 def add_grade(name, grade):

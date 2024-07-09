@@ -18,3 +18,9 @@ def main():
         print("Test")
 
         break
+
+def student_name():
+    name = input("Enter a student name: ")
+    
+
+     
