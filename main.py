@@ -15,4 +15,6 @@ def main():
         print("9. Load student data from a file")
         print("10. Exit")
 
+        print("Test")
+
         break
