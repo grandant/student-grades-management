@@ -2,7 +2,10 @@ students = {}
 
 
 def add_student(name):
-    pass
+    if name in students.keys():
+        print("Student already exists")
+    else:
+        students[name] = []
 
 
 def add_grade(name, grade):
