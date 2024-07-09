@@ -18,7 +18,12 @@ def display_students():
 
 
 def remove_student(name):
-    pass
+    name = input("Enter a student name: ")
+    if name in students:
+        del students[name]
+        print(f"The student {name} was removed.")
+    else:
+        print("The student not found.")
 
 
 def update_grade(name, old_grade, new_grade):
