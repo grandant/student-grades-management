@@ -14,6 +14,8 @@ def calculate_average(name):
 
 
 def display_students():
+    for student, grade in add_grade().items():
+        print(f"Student: {student}, Grade: {grade}")
     pass
 
 
