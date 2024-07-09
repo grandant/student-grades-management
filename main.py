@@ -16,3 +16,9 @@ def main():
         print("10. Exit")
 
         break
+
+def student_name():
+    name = input("Enter a student name: ")
+    
+
+     
