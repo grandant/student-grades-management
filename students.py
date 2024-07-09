@@ -2,15 +2,22 @@ students = {}
 
 
 def add_student(name):
-    pass
+    students[name] = []
 
 
 def add_grade(name, grade):
-    pass
+    grades_list = grade.join(', ')
+    students[name] = grades_list
 
 
 def calculate_average(name):
-    pass
+    grades = students[name]
+    sum_grade = 0
+    for grade in grades:
+        sum_grade += grade
+
+    avr_grade = sum_grade / len(grades)
+    print(f"The average grade of student {name} is: {avr_grade}")
 
 
 def display_students():
